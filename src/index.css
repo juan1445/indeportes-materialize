@@ -1,0 +1,36 @@
+body {
+  background-color: #eee;
+}
+
+.marginTop {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 576px) {
+  .media {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .media {
+    display: none !important;    
+  }
+  .media2 {
+    display: none !important;
+  }
+  .spacing {
+    margin: 20px !important;
+  }
+  .center{
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .media {
+    display: none !important;
+  }
+}
